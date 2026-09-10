@@ -6,9 +6,9 @@ import {
   time,
 } from "discord.js";
 import axios from "axios";
-import { Command } from "../base/classes/command.js";
-import { Embed } from "../base/functions/embed.js";
-import packageInfo from "../../package.json" with { type: "json" };
+import { Command } from "../../base/classes/command.js";
+import { Embed } from "../../base/functions/embed.js";
+import packageInfo from "../../../package.json" with { type: "json" };
 
 interface GithubRes {
   login: string;
