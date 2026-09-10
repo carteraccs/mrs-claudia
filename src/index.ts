@@ -11,6 +11,8 @@ import { apiCommand } from './commands/api/index';
 import { debugCommand } from './commands/debug/index';
 import { ownerCommand } from './commands/owner/index';
 import { utilCommand } from './commands/util/index';
+// 1. Import your new info command (adjust path if you saved it elsewhere, e.g., inside util or its own folder)
+import { infoCommand } from './commands/util/about'; 
 
 function assertEnv(): void {
     if (!process.env.DISCORD_TOKEN) {
@@ -24,12 +26,12 @@ function assertEnv(): void {
 async function bootstrap(): Promise<void> {
     assertEnv();
 
-    // Initialize the SQLite database (applies schema.sql on first boot).
     getDatabase();
 
     const client = createClient();
 
-    for (const command of [apiCommand, debugCommand, ownerCommand, utilCommand]) {
+
+    for (const command of [apiCommand, debugCommand, ownerCommand, utilCommand, infoCommand]) {
         client.commands.set(command.data.name, command);
     }
 
