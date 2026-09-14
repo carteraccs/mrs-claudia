@@ -255,6 +255,6 @@ See [LICENSE](LICENSE) for the full license text.
 
 ## AI Disclosure
 
-This project was developed with substantial assistance from AI tools, including Claude by Anthropic.
+This project was developed with substantial assistance from AI tools, including Claude by Anthropic, with Tiago Santos greatly contributing.
 
 See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for additional information.
