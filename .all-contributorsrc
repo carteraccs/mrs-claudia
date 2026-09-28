@@ -1,44 +1,44 @@
 {
-“files”: [
-“README.md”
-],
-“imageSize”: 100,
-“commit”: false,
-“commitType”: “docs”,
-“commitConvention”: “angular”,
-“contributors”: [
-{
-“login”: “carteraccs”,
-“name”: “carter.accs”,
-“avatar_url”: “https://avatars.githubusercontent.com/u/206009374?v=4”,
-“profile”: “https://github.com/carteraccs”,
-“contributions”: [
-“code”,
-“ideas”
-]
-},
-{
-“login”: “tiagoodevs”,
-“name”: “Tiago”,
-“avatar_url”: “https://avatars.githubusercontent.com/u/184146812?v=4”,
-“profile”: “https://breaddevv.cc”,
-“contributions”: [
-“code”,
-“hosting”
-]
-}
-],
-“contributorsPerLine”: 7,
-“skipCi”: true,
-“repoType”: “github”,
-“repoHost”: “https://github.com”,
-“projectName”: “mrs-claudia”,
-“projectOwner”: “carteraccs”,
-“types”: {
-“hosting”: {
-“symbol”: “🌐”,
-“description”: “Hosting”,
-“link”: “https://github.com/carteraccs/mrs-claudia”
-}
-}
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "carteraccs",
+      "name": "carter.accs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206009374?v=4",
+      "profile": "https://github.com/carteraccs",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "tiagoodevs",
+      "name": "Tiago",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184146812?v=4",
+      "profile": "https://breaddevv.cc",
+      "contributions": [
+        "code",
+        "hosting"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "mrs-claudia",
+  "projectOwner": "carteraccs",
+  "types": {
+    "hosting": {
+      "symbol": "🌐",
+      "description": "Hosting",
+      "link": "https://github.com/carteraccs/mrs-claudia"
+    }
+  }
 }
