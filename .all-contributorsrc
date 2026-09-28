@@ -6,17 +6,7 @@
   "commit": false,
   "commitType": "docs",
   "commitConvention": "angular",
-  "contributors": [
-    {
-      "login": "tiagoodevs",
-      "name": "Tiago",
-      "avatar_url": "https://avatars.githubusercontent.com/u/184146812?v=4",
-      "profile": "https://breaddevv.cc",
-      "contributions": [
-        "code"
-      ]
-    }
-  ],
+  "contributors": [],
   "contributorsPerLine": 7,
   "skipCi": true,
   "repoType": "github",
