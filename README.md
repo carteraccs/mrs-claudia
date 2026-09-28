@@ -4,11 +4,7 @@ A Discord bot providing API utilities, debugging tools, database utilities, enco
 
 ## AI-Generated Software
 
-This project was created with substantial assistance from AI tools.
-
-Much of the source code was generated using Claude by Anthropic. This repository does not claim sole human authorship of AI-generated portions.
-
-See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for more information.
+This project was created with substantial assistance from AI tools. Much of the source code was generated using Claude by Anthropic. This repository does not claim sole human authorship of AI-generated portions. See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for more information.
 
 ## Features
 
@@ -67,9 +63,7 @@ DISCORD_TOKEN=your_discord_bot_token
 CLIENT_ID=your_discord_application_client_id
 ```
 
-**Never commit `.env` or expose your Discord bot token.**
-
-If your token has ever been exposed publicly, revoke it through the Discord Developer Portal and generate a new one.
+**Never commit `.env` or expose your Discord bot token.** If your token has ever been exposed publicly, revoke it through the Discord Developer Portal and generate a new one.
 
 ## Development
 
@@ -103,17 +97,13 @@ bun run start
 
 ## Database
 
-The project uses SQLite.
-
-The database file is:
+The project uses SQLite. The database file is:
 
 ```text
 database.sqlite
 ```
 
-The database is created automatically when the application starts.
-
-For Docker deployments, the database should be persisted using `/app/data`.
+The database is created automatically when the application starts. For Docker deployments, the database should be persisted using `/app/data`.
 
 ## Docker
 
@@ -128,11 +118,11 @@ docker build -t mrs-claudia .
 ### Run
 
 ```bash
-docker run -d \\
-  --name mrs-claudia \\
-  --restart unless-stopped \\
-  --env-file .env \\
-  -v mrs-claudia-data:/app/data \\
+docker run -d \
+  --name mrs-claudia \
+  --restart unless-stopped \
+  --env-file .env \
+  -v mrs-claudia-data:/app/data \
   mrs-claudia
 ```
 
@@ -199,9 +189,7 @@ Create a persistent volume mounted to:
 /app/data
 ```
 
-This keeps the SQLite database between deployments.
-
-After configuring the application, deploy it through Coolify and check the application logs to verify that the bot connects successfully.
+This keeps the SQLite database between deployments. After configuring the application, deploy it through Coolify and check the application logs to verify that the bot connects successfully.
 
 ## Project Structure
 
@@ -233,14 +221,30 @@ After configuring the application, deploy it through Coolify and check the appli
 | `bun run build` | Compile TypeScript |
 | `bun run start` | Start production build |
 
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/carteraccs"><img src="https://githubusercontent.com" width="100px;" alt="carteraccs"/><br /><sub><b>carteraccs</b></sub></a><br /><a href="#code-carteraccs" title="Code">💻</a> <a href="#ideas-carteraccs" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-carteraccs" title="Infrastructure (Hosting, Deploy-scripts, etc)">🚇</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com) specification. Contributions of any kind welcome!
+
 ## Security
 
-Please report security vulnerabilities responsibly.
-
-See [SECURITY.md](SECURITY.md) for the security policy.
-
-Never publish:
-
+Please report security vulnerabilities responsibly. See [SECURITY.md](SECURITY.md) for the security policy. Never publish:
 - Discord bot tokens
 - API keys
 - Database credentials
@@ -249,12 +253,8 @@ Never publish:
 
 ## License
 
-This project is licensed under the MIT License.
-
-See [LICENSE](LICENSE) for the full license text.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full license text.
 
 ## AI Disclosure
 
-This project was developed with substantial assistance from AI tools, including Claude by Anthropic.
-
-See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for additional information.
+This project was developed with substantial assistance from AI tools, including Claude by Anthropic. See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for additional information.
