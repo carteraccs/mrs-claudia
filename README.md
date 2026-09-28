@@ -1,7 +1,7 @@
 # Mrs Claudia
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A Discord bot providing API utilities, debugging tools, database utilities, encoding helpers, hashing tools, JWT decoding, JSON formatting, webhook utilities, and API request building.
@@ -236,6 +236,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org))
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://breaddevv.cc"><img src="https://avatars.githubusercontent.com/u/184146812?v=4?s=100" width="100px;" alt="Tiago"/><br /><sub><b>Tiago</b></sub></a><br /><a href="https://github.com/carteraccs/mrs-claudia/commits?author=tiagoodevs" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/carteraccs"><img src="https://avatars.githubusercontent.com/u/206009374?v=4?s=100" width="100px;" alt="carter.accs"/><br /><sub><b>carter.accs</b></sub></a><br /><a href="https://github.com/carteraccs/mrs-claudia/commits?author=carteraccs" title="Code">💻</a> <a href="#ideas-carteraccs" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
